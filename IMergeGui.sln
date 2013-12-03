@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Mac", "IMergeGui.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Wpf", "IMergeGui.Wpf\IMergeGui.Wpf.csproj", "{C4858936-1FDA-494D-B0E7-3D196A06D527}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Core", "IMergeGui.Core\IMergeGui.Core.csproj", "{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
@@ -26,6 +28,12 @@ Global
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
