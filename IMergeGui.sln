@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Mac", "IMergeGui.Mac\IMergeGui.Mac.csproj", "{10B912FB-4B76-480E-A324-F682136B5377}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Wpf", "IMergeGui.Wpf\IMergeGui.Wpf.csproj", "{C4858936-1FDA-494D-B0E7-3D196A06D527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Core", "IMergeGui.Core\IMergeGui.Core.csproj", "{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMergeGui.Core", "IMergeGui.Core\IMergeGui.Core.csproj", "{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,17 +26,17 @@ Global
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4858936-1FDA-494D-B0E7-3D196A06D527}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.AppStore|Any CPU.Build.0 = Release|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B20C6ED-F3FC-4395-A853-1689ACEC50EE}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD3EA7E-9202-4EED-83FE-6B8B9A83A3BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = IMergeGui.Mac\IMergeGui.Mac.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
