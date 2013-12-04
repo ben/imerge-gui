@@ -8,7 +8,7 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label>No repository loaded.</Label>
-            <Button Padding="5" Command="{Binding LoadCommand}">Load...</Button>
+            <Button Padding="5" Content="Load..." Click="Load"/>
         </StackPanel>
     </Grid>
 </UserControl>

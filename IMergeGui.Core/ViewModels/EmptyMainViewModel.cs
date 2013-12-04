@@ -4,13 +4,8 @@ using ReactiveUI;
 namespace IMergeGui.Core.ViewModels
 {
     [ImplementPropertyChanged]
-    public class EmptyMainViewModel
+    public class EmptyMainViewModel : ReactiveObject
     {
-        public ReactiveCommand LoadCommand { get; set; }
-
-        public EmptyMainViewModel()
-        {
-            LoadCommand = new ReactiveCommand();
-        }
+        public string PathToLoad { get; set; }
     }
 }

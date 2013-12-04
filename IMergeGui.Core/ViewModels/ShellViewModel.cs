@@ -1,4 +1,6 @@
 ﻿using PropertyChanged;
+using ReactiveUI;
+using System;
 
 namespace IMergeGui.Core.ViewModels
 {
@@ -9,7 +11,13 @@ namespace IMergeGui.Core.ViewModels
 
         public ShellViewModel()
         {
-            Content = new EmptyMainViewModel();
+            var vm = new EmptyMainViewModel();
+            vm.ObservableForProperty(x => x.PathToLoad)
+                .Subscribe(path =>
+                {
+                    Content = new RepositoryViewModel(path.Value);
+                });
+            Content = vm;
         }
     }
 }

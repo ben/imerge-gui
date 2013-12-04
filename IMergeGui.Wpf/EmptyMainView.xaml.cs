@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using IMergeGui.Core.ViewModels;
+using Microsoft.WindowsAPICodePack;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace IMergeGui.Wpf.Views
 {
@@ -23,6 +26,22 @@ namespace IMergeGui.Wpf.Views
         public EmptyMainView()
         {
             InitializeComponent();
+        }
+
+        private void Load(object sender, RoutedEventArgs e)
+        {
+            var dlg = new CommonOpenFileDialog
+            {
+                IsFolderPicker = true,
+            };
+            var result = dlg.ShowDialog(Window.GetWindow(this));
+            if (result != CommonFileDialogResult.Ok) return;
+
+            var model = DataContext as EmptyMainViewModel;
+            if (model != null)
+            {
+                model.PathToLoad = dlg.FileName;
+            }
         }
     }
 }
