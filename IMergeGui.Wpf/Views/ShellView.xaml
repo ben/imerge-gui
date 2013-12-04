@@ -6,9 +6,7 @@
         mc:Ignorable="d" 
         d:DesignHeight="600" d:DesignWidth="800"
         Background="White">
-    <StackPanel>
-        <Label>Hello!</Label>
-        <Button Command="{Binding DoTheThing}">Do</Button>
-        <Label x:Name="TheText" />
-    </StackPanel>
+    <Grid>
+        <ContentControl x:Name="Content"/>
+    </Grid>
 </Window>

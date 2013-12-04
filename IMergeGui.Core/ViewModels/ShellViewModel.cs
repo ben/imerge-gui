@@ -12,19 +12,11 @@ namespace IMergeGui.Core
     [ImplementPropertyChanged]
     public class ShellViewModel
     {
-        public ReactiveCommand DoTheThing { get; private set; }
-        public double TheText { get; set; }
+        public object Content { get; set; }
 
         public ShellViewModel()
         {
-            TheText = 5;
-
-            DoTheThing = new ReactiveCommand(Observable.Return(true));
-            DoTheThing
-                .Subscribe(_ =>
-                {
-                    TheText++;
-                });
+            Content = new EmptyMainViewModel();
         }
     }
 }
