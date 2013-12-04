@@ -13,12 +13,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace IMergeGui.Wpf
+namespace IMergeGui.Wpf.Views
 {
     /// <summary>
     /// Interaction logic for EmptyMainView.xaml
     /// </summary>
-    public partial class EmptyMainView : UserControl
+    public partial class EmptyMainView
     {
         public EmptyMainView()
         {

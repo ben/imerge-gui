@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reactive.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PropertyChanged;
-using ReactiveUI;
+﻿using PropertyChanged;
 
-namespace IMergeGui.Core
+namespace IMergeGui.Core.ViewModels
 {
     [ImplementPropertyChanged]
     public class ShellViewModel

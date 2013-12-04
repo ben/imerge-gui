@@ -1,8 +1,7 @@
 using PropertyChanged;
 using ReactiveUI;
-using System;
 
-namespace IMergeGui.Core
+namespace IMergeGui.Core.ViewModels
 {
     [ImplementPropertyChanged]
     public class EmptyMainViewModel

@@ -1,15 +1,16 @@
 ﻿using Caliburn.Micro;
+using IMergeGui.Core.ViewModels;
 
 namespace IMergeGui.Wpf
 {
-    public class IMergeGuiBootstrapper : Bootstrapper<Core.ShellViewModel>
+    public class IMergeGuiBootstrapper : Bootstrapper<ShellViewModel>
     {
         public IMergeGuiBootstrapper()
         {
             var mappingConfig = new TypeMappingConfiguration
             {
-                DefaultSubNamespaceForViewModels = "Core",
-                DefaultSubNamespaceForViews = "Wpf",
+                DefaultSubNamespaceForViewModels = "Core.ViewModels",
+                DefaultSubNamespaceForViews = "Wpf.Views",
             };
             ViewLocator.ConfigureTypeMappings(mappingConfig);
             ViewModelLocator.ConfigureTypeMappings(mappingConfig);
