@@ -1,4 +1,5 @@
-﻿using PropertyChanged;
+﻿using LibGit2Sharp;
+using PropertyChanged;
 using ReactiveUI;
 
 namespace IMergeGui.Core.ViewModels
@@ -6,11 +7,11 @@ namespace IMergeGui.Core.ViewModels
     [ImplementPropertyChanged]
     public class RepositoryViewModel : ReactiveObject
     {
-        public string Path { get; set; }
+        private readonly IRepository repo;
 
-        public RepositoryViewModel(string path)
+        public RepositoryViewModel(IRepository repo)
         {
-            Path = path;
+            this.repo = repo;
         }
     }
 }

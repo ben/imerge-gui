@@ -1,4 +1,5 @@
-﻿using PropertyChanged;
+﻿using LibGit2Sharp;
+using PropertyChanged;
 using ReactiveUI;
 using System;
 
@@ -15,7 +16,7 @@ namespace IMergeGui.Core.ViewModels
             vm.ObservableForProperty(x => x.PathToLoad)
                 .Subscribe(path =>
                 {
-                    Content = new RepositoryViewModel(path.Value);
+                    Content = new RepositoryViewModel(new Repository(Repository.Discover(path.Value)));
                 });
             Content = vm;
         }
