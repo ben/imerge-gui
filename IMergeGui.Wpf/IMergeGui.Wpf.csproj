@@ -148,7 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IMergeGui.Core\IMergeGui.Core.csproj">
-      <Project>{ccd3ea7e-9202-4eed-83fe-6b8b9a83a3ba}</Project>
+      <Project>{625CFC93-4423-4EF9-A354-AC7BCF3D35BA}</Project>
       <Name>IMergeGui.Core</Name>
     </ProjectReference>
   </ItemGroup>
