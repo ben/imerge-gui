@@ -91,4 +91,10 @@
     <None Include="Info.plist" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\IMergeGui.Core\IMergeGui.Core.csproj">
+      <Project>{BC61A349-DB2E-4E6A-A5E1-AC7466C748C9}</Project>
+      <Name>IMergeGui.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
